@@ -1,0 +1,91 @@
+html
+{
+	font-family: 'Roboto', sans-serif;
+}
+
+html *
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	color: #888;
+	background-color: #555;
+	height: 100%;
+	min-height: 800px;
+	background-image: url('bg2.png');
+}
+
+header
+{
+	text-align: center;
+	background-color: rgba(255,255,255,0.6);
+	padding: 30px;
+}
+
+.content
+{
+	background-color: #fff;
+	margin: auto;
+	text-align: center;
+	height: 80%;
+}
+
+.large
+{
+	width: 1300px;
+}
+
+@media screen and (max-width: 1300px)
+{
+	.large
+	{
+		width: 100%;
+	}
+}
+
+.button
+{
+	display: inline-block;
+	font-size: 1rem;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	background-color: #aaa;
+	border-color: #777;
+	border-width: 0.1rem;
+	border-style: solid;
+	border-radius: 0.7rem;
+	padding: 0.3rem;
+	margin: 1rem 0 1rem 0;
+}
+
+.dist
+{
+	color: red;
+	font-weight: 700;
+}
+
+.itineraire
+{
+	margin: 1rem;
+}
+
+.itineraire ul
+{
+	list-style: none;
+	padding: 0px;
+}
+
+.itineraire ul li:before
+{
+	content: '\27a5';
+	margin: 0 1em;    /* any design */
+}
+
+.ville
+{
+	display: inline;
+}
